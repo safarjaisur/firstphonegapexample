@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Contact Us</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/screen.css" />
+<link rel="stylesheet" href="css/custom-responsive.css"/>
+<link rel="stylesheet" href="css/bootstrap.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<!--<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+<script src="js/header_menu.js"></script>
+<link rel="stylesheet" href="css/headermenu.css">
+<script defer src="js/header-fix.js"></script>
+<script defer src="js/custom.js"></script>
+<link rel="stylesheet" href="css/slider-index.css">
+<script src="js/slippry.min.js"></script>
+<script>
+			$(function() {
+				var demo1 = $("#slippry-slider").slippry({
+					transition: 'fade',
+					useCSS: true,
+					speed: 1000,
+					pause: 3000,
+					auto: true,
+					preload: 'visible'
+				});
+
+				$('.stop').click(function () {
+					demo1.stopAuto();
+				});
+
+				$('.start').click(function () {
+					demo1.startAuto();
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+</head>
+<body>
+<main>
+ <!--  ============= Header =============== -->
+ <header id="header" class="header-fix">
+  <section class="header-top">
+   <div class="container">
+    <ul class="fr">
+     <li><i class="fa fa-envelope"></i><a href="#">sales@innovaide.com</a></li>
+     <li><i class="fa fa-phone"></i>+1508-630-0307</li>
+     <li><a  style="color:#e8b30b" href="#">Englesh<i class="fa fa-chevron-down"></i></a></li>
+    </ul>
+   </div>
+  </section>
+  <section class="header-middel">
+   <div class="container">
+    <div class="fl"><a href="#"><img src="images/logo.jpg" alt="Logo"></a></div>
+    <div class="fr header-right">
+     <div class="socelmediaicon"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-youtube"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+     <div class="search-bar">
+      <input type="text" value="" name="searchs" placeholder="Search you keyworkds" class="serach_bar">
+      <input type="button" name="searchbutton" class="search_button" src="images/search_icon.jpg">
+     </div>
+    </div>
+   </div>
+  </section>
+  <nav>
+   <div class="container"><strong></strong> <a href="#" class="logo-left"><img src="images/header-logo.png" alt=""></a>
+    <div id='cssmenu'>
+     <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class='has-su'><a href="services.html">Services</a>
+       <ul>
+        <li class='has-sub'><a href='#'><span>Overview</span></a></li>
+        <li class='has-sub'><a href='#'><span>Motherboard Design</span></a></li>
+        <li class='has-sub'><a href='#'><span>Chip Design</span></a></li>
+        <li class='has-sub'><a href='#'><span>Firmware</span></a></li>
+       </ul>
+      </li>
+      <li><a href="industry.html">Industry</a></li>
+      <li><a href="#">IP Solutions</a></li>
+      <li><a href="about_us.html">About Us</a></li>
+      <li><a href="#">Careers</a></li>
+      <li class='active'><a href="contact_us.html">Contact Us</a></li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+ </header>
+ <!--  ============= contect =============== -->
+ <section id="contect">
+  <!-- slider -->
+  <div class="slider_box" style="margin:0 0; padding:15px 0 0 0;">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-12">
+      <ul class="breadc">
+       <li><a href="#">Home</a></li>
+       <li><span>/</span></li>
+       <li>Contact Us</li>
+      </ul>
+     </div>
+    </div>
+   </div>
+   <!--<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+</script>
+<script>
+function initialize()
+{
+var mapProp = {
+  center:new google.maps.LatLng(23.0203457,72.5797426),
+  zoom:13,
+  mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+var map=new google.maps.Map(document.getElementById("googleMap")
+  ,mapProp);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<div id="googleMap" style="width:100%;height:450px;"></div>
+-->
+   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3888.5100157455495!2d77.6212365!3d12.939183100000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1445c67f8dd5%3A0xc393e2516ea83371!2s210%2C+4th+Cross+Rd%2C+Koramangala+6+Block%2C+Koramangala+Layout%2C+Bangalore%2C+Karnataka+560095!5e0!3m2!1sen!2sin!4v1405597114173" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+  </div>
+  <!-- slider -->
+  <div class="frequent-queries">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-12">
+     
+     
+     
+      <div class="post-content">
+       <div class="row vc_row-fluid ">
+        <div class="small-12 columns ">
+         <aside style="height:50px;" class="gap cf"></aside>
+        </div>
+       </div>
+       <div class="row vc_row-fluid ">
+        <div class="small-12 medium-4 columns ">
+         <div class="wpb_text_column wpb_content_element ">
+          <div class="wpb_wrapper">
+           <h4>Contact Information</h4>
+          </div>
+         </div>
+         <ul class="iconlist ">
+          <li> <i class="fa fa-map-marker maps-icon"></i>210, 4th Cross, 6th Block, Koramangala,<br/> Bangalore - 560103</li>
+         </ul>
+         <ul class="iconlist ">
+          <li><i class="fa fa-mobile-phone mobile_phone"></i></i>+91 9845 997744</li>
+         </ul>
+         <ul class="iconlist ">
+          <li><i class="fa fa-send email_send"></i></i>contactus@innovodesign.co</li>
+         </ul>
+         <div class="wpb_text_column wpb_content_element ">
+          <div class="wpb_wrapper">
+           <h4></h4>
+           <h4>Follow</h4>
+           
+           <ul class="social_media">
+           <li><a class="fb" href="#"><i class="fa fa-facebook"></i></a></li>
+           <li><a class="fb" href="#"><i class="fa fa-twitter"></i></a></li>
+           <li><a class="fb" href="#"><i class="fa fa-linkedin"></i></a></li>
+           <li><a class="fb" href="#"><i class="fa fa-google-plus"></i></a></li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <div class="small-12 medium-8 columns ">
+         <div class="wpb_text_column wpb_content_element ">
+          <div class="wpb_wrapper">
+           <h4>Get in touch with us</h4>
+          </div>
+         </div>
+         <div id="wpcf7-f12-p112-o1" class="wpcf7">
+          <div class="screen-reader-response"></div>
+          <form novalidate="novalidate" class="wpcf7-form" method="post" action="">
+           
+           <div class="row">
+            <div class="small-12 medium-6 columns">
+             <label>Full Name</label>
+             <br>
+             <span class="wpcf7-form-control-wrap your-firstname">
+             <input type="text" aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" size="40" value="" name="your-firstname">
+             </span></div>
+            <div class="small-12 medium-6 columns">
+             <label>Phone Number</label>
+             <br>
+             <span class="wpcf7-form-control-wrap your-email">
+             <input type="text" aria-invalid="false" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" size="40" value="" name="your-email">
+             </span></div>
+             
+             <div class="small-12 medium-6 columns" style="width:100%;">
+             <label>E-mail</label>
+             <br>
+             <span class="wpcf7-form-control-wrap your-email" style="width:80%; float:left;">
+             <input type="text" aria-invalid="false" style="width:100%;" aria-required="true" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required full" size="40" value="" name="your-email">
+             </span></div>
+             
+           </div>
+           <div class="row">
+            <div class="small-12 columns" style="width:81%;">
+             <label>Your Message</label>
+             <br>
+             <span class="wpcf7-form-control-wrap your-message" >
+             <textarea aria-invalid="false" class="wpcf7-form-control wpcf7-textarea full" rows="10" cols="40" name="your-message"></textarea>
+             </span></div>
+           </div>
+           <div class="row">
+            <div class="small-12 columns">
+             <input type="submit" class="wpcf7-form-control wpcf7-submit" value="Send Message">
+             <img class="ajax-loader" src="http://skillful.fuelthemes.net/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></div>
+           </div>
+           <div class="wpcf7-response-output wpcf7-display-none"></div>
+          </form>
+         </div>
+        </div>
+       </div>
+      </div>
+      
+      
+     
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+ <!--  ============= footer =============== -->
+ <footer id="footer">
+  <div class="footer-top">
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-12">
+      <div class="footer-top-blog-1">
+       <h3>Latest Blog</h3>
+       <div class="latest-blog">
+        <div class="latest-blog-left"> <img src="images/latest-blog-img.jpg" alt=""> </div>
+        <div class="latest-blog-right">
+         <h6>WEbsite Health Check</h6>
+         <p>My mission is to help people feel better
+          about themselves, inside and out.</p>
+        </div>
+       </div>
+       <div class="latest-blog">
+        <div class="latest-blog-left"> <img src="images/latest-blog-img.jpg" alt=""> </div>
+        <div class="latest-blog-right">
+         <h6>WEbsite Health Check</h6>
+         <p>My mission is to help people feel better
+          about themselves, inside and out.</p>
+        </div>
+       </div>
+      </div>
+      <div class="footer-top-blog-2">
+       <h3>Our Links</h3>
+       <ul>
+        <li><a href="#">Architech &amp; design Services</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Implementation Services</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">independent testing services</a></li>
+        <li><a href="#">About Innovide</a></li>
+        <li><a href="#">About Innoviade</a></li>
+        <li><a href="#">Case Study</a></li>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Career</a></li>
+       </ul>
+      </div>
+      <div class="footer-top-blog-3">
+       <h3>Innovation</h3>
+       <p>“The successful exploitation of 
+        new ideas”</p>
+       <p>- (Department of Trade and
+        Industry, UK)</p>
+      </div>
+      <div class="footer-top-blog-4">
+       <h3>Corporate Headquarters</h3>
+       <p>241 Boston Post Road West
+        Marlborough, MA-01752
+        USA</p>
+       <div class="footer-contact">
+        <ul>
+         <li>Telephone: +1 508-630-0307</li>
+         <li>Fax: +1 774-614-2051</li>
+         <li>Email: sales@innovaide.com</li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div class="footer-bott">
+   <div class="container"> <span>©Copyright 2003.All right Reserved</span> </div>
+  </div>
+ </footer>
+</main>
+</body>
+</html>

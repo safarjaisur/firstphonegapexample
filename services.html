@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+		<head>
+		<title>Services</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/screen.css" />
+		<link rel="stylesheet" href="css/custom-responsive.css"/>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+		<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+		<!--<script src="js/bootstrap.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
+		<script src="js/header_menu.js"></script>
+		<link rel="stylesheet" href="css/headermenu.css">
+		<script defer src="js/header-fix.js"></script>
+		<script defer src="js/custom.js"></script>
+		<link rel="stylesheet" href="css/slider-index.css">
+		<script src="js/slippry.min.js"></script>
+		<script>
+			$(function() {
+				var demo1 = $("#slippry-slider").slippry({
+					transition: 'fade',
+					useCSS: true,
+					speed: 1000,
+					pause: 3000,
+					auto: true,
+					preload: 'visible'
+				});
+
+				$('.stop').click(function () {
+					demo1.stopAuto();
+				});
+
+				$('.start').click(function () {
+					demo1.startAuto();
+				});
+
+				$('.prev').click(function () {
+					demo1.goToPrevSlide();
+					return false;
+				});
+				$('.next').click(function () {
+					demo1.goToNextSlide();
+					return false;
+				});
+				$('.reset').click(function () {
+					demo1.destroySlider();
+					return false;
+				});
+				$('.reload').click(function () {
+					demo1.reloadSlider();
+					return false;
+				});
+				$('.init').click(function () {
+					demo1 = $("#demo1").slippry();
+					return false;
+				});
+			});
+		</script>
+		</head>
+		<body>
+  <main> 
+   <!--  ============= Header =============== -->
+   <header id="header" class="header-fix">
+    <section class="header-top">
+     <div class="container">
+      <ul class="fr">
+       <li><i class="fa fa-envelope"></i><a href="#">sales@innovaide.com</a></li>
+       <li><i class="fa fa-phone"></i>+1508-630-0307</li>
+       <li><a  style="color:#e8b30b" href="#">Englesh<i class="fa fa-chevron-down"></i></a></li>
+      </ul>
+     </div>
+    </section>
+    <section class="header-middel">
+     <div class="container">
+      <div class="fl"><a href="#"><img src="images/logo.jpg" alt="Logo"></a></div>
+      <div class="fr header-right">
+       <div class="socelmediaicon"> <a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-youtube"></i></a> <a href="#"><i class="fa fa-google-plus"></i></a> </div>
+       <div class="search-bar">
+        <input type="text" value="" name="searchs" placeholder="Search you keyworkds" class="serach_bar">
+        <input type="button" name="searchbutton" class="search_button" src="images/search_icon.jpg">
+       </div>
+      </div>
+     </div>
+    </section>
+    <nav>
+     <div class="container"><strong></strong> <a href="#" class="logo-left"><img src="images/header-logo.png" alt=""></a>
+      <div id='cssmenu'>
+       <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class='active has-su'><a href="services.html">Services</a>
+         <ul>
+          <li class='has-sub'><a href='#'><span>Overview</span></a></li>
+          <li class='has-sub'><a href='#'><span>Motherboard Design</span></a></li>
+          <li class='has-sub'><a href='#'><span>Chip Design</span></a></li>
+          <li class='has-sub'><a href='#'><span>Firmware</span></a></li>
+         </ul>
+        </li>
+        <li><a href="industry.html">Industry</a></li>
+        <li><a href="#">IP Solutions</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+       </ul>
+      </div>
+     </div>
+    </nav>
+   </header>
+   <!--  ============= contect =============== -->
+   <section id="contect"> 
+    <!-- slider -->
+    <div class="slider_box">
+     <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+        <ul class="breadc">
+         <li><a href="#">Home</a></li>
+         <li><span>/</span></li>
+         <li>Services</li>
+        </ul>
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-sm-12 server_box">
+        <div class="col-mda-6 fl">
+         <h3>From Concept to System and beyond</h3>
+         <p>We provide integrated technologies and customization services from architecture to end product. We support our clients beyond the release throughout the life cycle of product.</p>
+        </div>
+        <div class="col-mdb-6 fl">
+         <div class="col-xs-comen-6 col-xsa-6 fl">
+          <h3>Product Architecture</h3>
+          <p>Response: We identify all IPs and their respective owners (Client, Innovaide, or third parites),</p>
+         </div>
+         <div class="col-xs-comen-6 col-xsb-6 fl">
+          <h3>ASIC/FPGA design and verification</h3>
+          <p>Response: We identify all IPs and their respective owners (Client, Innovaide, or third parites),</p>
+         </div>
+         <div class="col-xs-comen-6 col-xsc-6 fl">
+          <h3>Board design and verification</h3>
+          <p>Response: We identify all IPs and their respective owners (Client, Innovaide, or third parites),</p>
+         </div>
+         <div class="col-xs-comen-6 col-xsd-6 fl">
+          <h3>Life-cycle Support</h3>
+          <p>Response: We identify all IPs and their respective owners (Client, Innovaide, or third parites),</p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="row">
+       <div class="col-sm-12">
+        <h3></h3>
+        <div class="solutions-menu display-2-blocks container10 clearfix"> 
+         <!-- Column 1 -->
+         <div class="column-1 span625">
+          <div class="column-header">
+           <h3>
+            <div class="field field-name-field-s-rs-first-column-title field-type-text field-label-hidden">
+             <div class="field-items">
+              <div class="field-item even">Technology Used</div>
+             </div>
+            </div>
+           </h3>
+          </div>
+          <div class="column">
+           <div class="item-list">
+            <ul>
+             <li class="first"><a href="#">Mechanical Design &amp; Simulation</a></li>
+             <li><a href="#">Development and Testing of Embedded Systems</a></li>
+             <li><a href="#">Product Lifecycle Management</a></li>
+             <li class="last"><a href="#">Technical Publication</a></li>
+            </ul>
+           </div>
+          </div>
+         </div>
+         <!-- /Column 1 --> 
+         <!-- Column 2 -->
+         <div class="column-2 span375">
+          <div class="column-header">
+           <h3>
+            <div class="field field-name-field-s-rs-second-column-title field-type-text field-label-hidden">
+             <div class="field-items">
+              <div class="field-item even">Our Industry Solutions</div>
+             </div>
+            </div>
+           </h3>
+          </div>
+          <div class="column 2">
+           <div class="item-list">
+            <ul>
+             <li class="first"><a href="#">Aerospace &amp; Defense</a></li>
+             <li><a href="#">Automotive</a></li>
+             <li><a href="#">Distribution &amp; Transportation</a></li>
+             <li><a href="#">Industrial Products</a></li>
+             <li><a href="#">Oil &amp; Gas</a></li>
+             <li class="last"><a href="#">Utilities</a></li>
+            </ul>
+           </div>
+          </div>
+         </div>
+         <!-- /Column 2 --> 
+        </div>
+       </div>
+      </div>
+      
+      <div class="row">
+       <div class="col-sm-12">
+       <div class="resources">
+       		<ul>
+         	<li>
+          	<i class="fa fa-arrows-alt"></i>
+           <h5>Case studies</h5>
+          	<div class="cl"></div>
+           <p>Technical Publication</p>
+          </li>
+          
+          <li class="active">
+          	<i class="fa fa-arrows-alt"></i>
+           <h5>Client Testimonials</h5>
+          	<div class="cl"></div>
+           <p>Technical Publication</p>
+          </li>
+          
+          <li>
+          	<i class="fa fa-arrows-alt"></i>
+           <h5>Case studies</h5>
+          	<div class="cl"></div>
+           <p>Technical Publication</p>
+          </li>
+          
+         </ul>
+         <div class="cl"></div>
+         <div class="ressources-full-content">
+         	<h3>Development and Testing of Embedded Systems </h3>
+          <h4>Accelerate Your Products with Our Testing</h4>
+          <p>To stay relevant, companies must constantly create innovative, feature-rich products, fast. We help you reduce time-to-market, rationalize resource allocation and reduce total costs by developing, verifying and testing your product code in line with regulatory compliance. Rely on our 12,000 testing experts who use TMap® and Test Automation and Knowledge Tools (TAKT) Engine proprietary solutions to ensure customizable, non-intrusive and adaptive test processes</p>
+         </div>
+         
+         
+        </div>
+       </div>
+      </div>
+      
+      
+      <div class="row">
+       <div class="col-sm-12">
+        <div class="innovaide-expertise	">
+         <h2>Innovaide Expertise</h2>
+         <ul>
+          <li>Processors</li>
+          <li>PowerPC, x86, Network Processors</li>
+          <li>Hardware</li>
+          <li>Servers, switches, routers, line cards, ATCA, cPCI</li>
+          <li>Embedded Software</li>
+          <li>Drivers, firmware, diagnostics
+           <ol>
+            <li>• Linux 2.6, kernel, SMP</li>
+            <li>• NMS, SNMP, SIP, PIM-SM, PIM for IPv6, OSPFv3,    multicast VPNs</li>
+            <li>• VOIP(H.323, SIP, MGCP), Video (MPEG, RTSP)</li>
+           </ol>
+          </li>
+          <li>Operating Systems</li>
+          <li>Linux, VxWorks, Psos, Free BSD</li>
+          <li>Applications/Algorithms</li>
+          <li>Neural Networks, Security Applications (firewalls, encryption/decryption, etc), Image Processing, Data Classification, Retrieval.</li>
+          <li>ASIC Verification</li>
+          <li>System C, System Verilog, Specman</li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <!-- slider -->
+    <div class="frequent-queries">
+     <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+        <h2>Frequent Queries</h2>
+        <h5> Q: How does Innovaide protect our Intellectual Property and confidentiality?</h5>
+        <p>Response: We identify all IPs and their respective owners (Client, Innovaide, or third parites), to be used in the program. Any new IP to be created gets typically assigned to Client unless otherwise agreed to by Client. We understand and appreciate the importance of confidentiality and IP because we create some for our own use as well as for our clients. We will discuss and meet all your requirements. We use technology and infrastructure to restrict the sharing of information on need basis.</p>
+        <h5>Q. Does Innovaide have the technical ability to solve our problem?</h5>
+        <p>Response: We have a team of very senior engineers who can engage with you at the architecture level to solve your problems. We’ll be happy to introduce you to our team.</p>
+        <h5>Q. Does Innovaide have the global reach to provide the most optimized solution?</h5>
+        <p>Response: Yes, with our multiple locations, we can meet your requirements from co-location to cost effective. Our processes and experience ensures that our geographically dispersed teams perform effectively.</p>
+        <h5>Q: Does Innovaide have the capability to grow to service our needs?</h5>
+        <p>Response: Yes. We have access to resources in all major technology hubs in US and India.</p>
+        <h5>Q: How does Innovaide work with our internal resources?</h5>
+        <p>Response: Innovaide seeks to maximize ROI for our clients by analyzing the available resources from client, Innovaide and third parties, and creating a plan to use them in an effective manner.</p>
+        <h5>Q: How does Innovaide support us after the product release?</h5>
+        <p>Response: Innovaide offers comprehensive support packages and tailors the support needed for each client and product.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!--  ============= footer =============== -->
+   <footer id="footer">
+    <div class="footer-top">
+     <div class="container">
+      <div class="row">
+       <div class="col-sm-12">
+        <div class="footer-top-blog-1">
+         <h3>Latest Blog</h3>
+         <div class="latest-blog">
+          <div class="latest-blog-left"> <img src="images/latest-blog-img.jpg" alt=""> </div>
+          <div class="latest-blog-right">
+           <h6>WEbsite Health Check</h6>
+           <p>My mission is to help people feel better
+            about themselves, inside and out.</p>
+          </div>
+         </div>
+         <div class="latest-blog">
+          <div class="latest-blog-left"> <img src="images/latest-blog-img.jpg" alt=""> </div>
+          <div class="latest-blog-right">
+           <h6>WEbsite Health Check</h6>
+           <p>My mission is to help people feel better
+            about themselves, inside and out.</p>
+          </div>
+         </div>
+        </div>
+        <div class="footer-top-blog-2">
+         <h3>Our Links</h3>
+         <ul>
+          <li><a href="#">Architech &amp; design Services</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Implementation Services</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">independent testing services</a></li>
+          <li><a href="#">About Innovide</a></li>
+          <li><a href="#">About Innoviade</a></li>
+          <li><a href="#">Case Study</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Career</a></li>
+         </ul>
+        </div>
+        <div class="footer-top-blog-3">
+         <h3>Innovation</h3>
+         <p>“The successful exploitation of 
+          new ideas”</p>
+         <p>- (Department of Trade and
+          Industry, UK)</p>
+        </div>
+        <div class="footer-top-blog-4">
+         <h3>Corporate Headquarters</h3>
+         <p>241 Boston Post Road West
+          Marlborough, MA-01752
+          USA</p>
+         <div class="footer-contact">
+          <ul>
+           <li>Telephone: +1 508-630-0307</li>
+           <li>Fax: +1 774-614-2051</li>
+           <li>Email: sales@innovaide.com</li>
+          </ul>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="footer-bott">
+     <div class="container"> <span>©Copyright 2003.All right Reserved</span> </div>
+    </div>
+   </footer>
+  </main>
+</body>
+</html>
